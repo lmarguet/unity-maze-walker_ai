@@ -2,12 +2,13 @@
 using System.Linq;
 using UnityEngine;
 
-public class PopulationManager : MonoBehaviour
+public class BotsManager : MonoBehaviour
 {
     
     public static float ElapsedTime;
     
     public GameObject botPrefab;
+    public Transform StartPoint;
     public int PopulationSize = 50;
     public float TrialTime = 5;
 
@@ -46,9 +47,9 @@ public class PopulationManager : MonoBehaviour
     private GameObject InstantiateNewBot()
     {
         var startingPos = new Vector3(
-            transform.position.x + Random.Range(-2, 2),
-            transform.position.y,
-            transform.position.z + Random.Range(-2, 2)
+            StartPoint.position.x + Random.Range(-2, 2),
+            StartPoint.position.y,
+            StartPoint.position.z + Random.Range(-2, 2)
         );
         
         return Instantiate(botPrefab, startingPos, transform.rotation);
@@ -70,11 +71,10 @@ public class PopulationManager : MonoBehaviour
 
     private void BreedNewPopulation()
     {
+        TrialTime += 2;
         var sortedList = population
-            .OrderBy(x => 
-                x.GetComponent<BrainBehaviour>().TimeWalking * 5  
-                + x.GetComponent<BrainBehaviour>().TimeAlive)
-            .ToList();
+                        .OrderBy(x => x.GetComponent<BrainBehaviour>().DistanceTravelled)
+                        .ToList();
         
         population.Clear();
 

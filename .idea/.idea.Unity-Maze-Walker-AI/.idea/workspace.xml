@@ -2,14 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="045cbf23-4962-4211-a71e-a67275bf9cfa" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/.idea.Unity-Maze-Walker-AI/.idea/contentModel.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/.idea.Unity-Maze-Walker-AI/.idea/indexLayout.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/.idea.Unity-Maze-Walker-AI/.idea/modules.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/.idea.Unity-Maze-Walker-AI/.idea/vcs.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/.idea.Unity-Maze-Walker-AI/riderModule.iml" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/BuiltinAssemblies.stamp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Unity-Maze-Walker-AI/.idea/contentModel.xml" afterPath="$PROJECT_DIR$/.idea/.idea.Unity-Maze-Walker-AI/.idea/contentModel.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Unity-Maze-Walker-AI/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.Unity-Maze-Walker-AI/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MazeWalkers.unity" afterPath="$PROJECT_DIR$/Assets/Scenes/MazeWalkers.unity" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BrainBehaviour.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/BrainBehaviour.cs" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GenerateMaze.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/GenerateMaze.cs" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PopulationManager.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/BotsManager.cs" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PopulationManager.cs.meta" afterPath="$PROJECT_DIR$/Assets/Scripts/BotsManager.cs.meta" />
+      <change beforePath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" afterPath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll.mdb" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll.mdb" />
       <change beforePath="$PROJECT_DIR$/Library/assetDatabase3" afterPath="$PROJECT_DIR$/Library/assetDatabase3" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/00/00000000000000003000000000000000" afterPath="$PROJECT_DIR$/Library/metadata/00/00000000000000003000000000000000" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/00/00000000000000008000000000000000" afterPath="$PROJECT_DIR$/Library/metadata/00/00000000000000008000000000000000" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/3e/3e6db2ccb89d447b091505f2797ae243" afterPath="$PROJECT_DIR$/Library/metadata/3e/3e6db2ccb89d447b091505f2797ae243" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/53/53b24064505194f6289d2dfb7e27dc46" afterPath="$PROJECT_DIR$/Library/metadata/53/53b24064505194f6289d2dfb7e27dc46" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/68/68dcc52d03ff9432689ff7ef9a55116f" afterPath="$PROJECT_DIR$/Library/metadata/68/68dcc52d03ff9432689ff7ef9a55116f" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/68/68dcc52d03ff9432689ff7ef9a55116f.info" afterPath="$PROJECT_DIR$/Library/metadata/68/68dcc52d03ff9432689ff7ef9a55116f.info" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/ad/ad7664cc5053642c9afc7ecb7c53b877" afterPath="$PROJECT_DIR$/Library/metadata/ad/ad7664cc5053642c9afc7ecb7c53b877" />
       <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler0.log" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler0.log" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" afterPath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" />
+      <change beforePath="$PROJECT_DIR$/Unity-Maze-Walker-AI.sln" afterPath="$PROJECT_DIR$/Unity-Maze-Walker-AI.sln" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,65 +35,44 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="BrainBehaviour.cs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="BrainBehaviour.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/BrainBehaviour.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
-              <caret line="13" column="30" lean-forward="false" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+            <state relative-caret-position="651">
+              <caret line="57" column="5" lean-forward="true" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="5" />
               <folding>
-                <marker date="1521809925000" expanded="true" signature="63:1706" ph="{...}" />
-                <marker date="1521809925000" expanded="true" signature="396:608" ph="{...}" />
-                <marker date="1521809925000" expanded="true" signature="446:602" ph="{...}" />
-                <marker date="1521809925000" expanded="true" signature="630:674" ph="{...}" />
-                <marker date="1521809925000" expanded="true" signature="708:869" ph="{...}" />
-                <marker date="1521809925000" expanded="true" signature="927:1704" ph="{...}" />
-                <marker date="1521809925000" expanded="true" signature="1114:1233" ph="{...}" />
-                <marker date="1521809925000" expanded="true" signature="1174:1223" ph="{...}" />
-                <marker date="1521809925000" expanded="true" signature="1457:1517" ph="{...}" />
+                <marker date="1521815137000" expanded="true" signature="63:1390" ph="{...}" />
+                <marker date="1521815137000" expanded="true" signature="283:377" ph="{...}" />
+                <marker date="1521815137000" expanded="true" signature="333:371" ph="{...}" />
+                <marker date="1521815137000" expanded="true" signature="411:588" ph="{...}" />
+                <marker date="1521815137000" expanded="true" signature="646:952" ph="{...}" />
+                <marker date="1521815137000" expanded="true" signature="833:946" ph="{...}" />
+                <marker date="1521815137000" expanded="true" signature="889:936" ph="{...}" />
+                <marker date="1521815137000" expanded="true" signature="1257:1386" ph="{...}" />
+                <marker date="1521815137000" expanded="true" signature="1275:1380" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DNA.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/DNA.cs">
+      <file leaf-file-name="BotsManager.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/BotsManager.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="117">
-              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state relative-caret-position="581">
+              <caret line="91" column="5" lean-forward="false" selection-start-line="91" selection-start-column="5" selection-end-line="91" selection-end-column="5" />
               <folding>
-                <marker date="1521809937000" expanded="true" signature="6:52" ph="..." />
-                <marker date="1521809937000" expanded="true" signature="70:1062" ph="{...}" />
-                <marker date="1521809937000" expanded="true" signature="231:386" ph="{...}" />
-                <marker date="1521809937000" expanded="true" signature="418:571" ph="{...}" />
-                <marker date="1521809937000" expanded="true" signature="491:565" ph="{...}" />
-                <marker date="1521809937000" expanded="true" signature="621:661" ph="{...}" />
-                <marker date="1521809937000" expanded="true" signature="703:742" ph="{...}" />
-                <marker date="1521809937000" expanded="true" signature="787:937" ph="{...}" />
-                <marker date="1521809937000" expanded="true" signature="837:931" ph="{...}" />
-                <marker date="1521809937000" expanded="true" signature="972:1059" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PopulationManager.cs" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/PopulationManager.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="597">
-              <caret line="94" column="36" lean-forward="false" selection-start-line="94" selection-start-column="36" selection-end-line="94" selection-end-column="36" />
-              <folding>
-                <marker date="1521810194000" expanded="true" signature="6:71" ph="..." />
-                <marker date="1521810194000" expanded="true" signature="119:2866" ph="{...}" />
-                <marker date="1521810194000" expanded="true" signature="392:484" ph="{...}" />
-                <marker date="1521810194000" expanded="true" signature="502:726" ph="{...}" />
-                <marker date="1521810194000" expanded="true" signature="557:720" ph="{...}" />
-                <marker date="1521810194000" expanded="true" signature="752:1255" ph="{...}" />
-                <marker date="1521810194000" expanded="true" signature="1303:1591" ph="{...}" />
-                <marker date="1521810194000" expanded="true" signature="1661:1970" ph="{...}" />
-                <marker date="1521810194000" expanded="true" signature="2009:2643" ph="{...}" />
-                <marker date="1521810194000" expanded="true" signature="2410:2568" ph="{...}" />
-                <marker date="1521810194000" expanded="true" signature="2702:2864" ph="{...}" />
-                <marker date="1521810194000" expanded="true" signature="2784:2858" ph="{...}" />
+                <marker date="1521814927000" expanded="true" signature="6:71" ph="..." />
+                <marker date="1521814927000" expanded="true" signature="113:2866" ph="{...}" />
+                <marker date="1521814927000" expanded="true" signature="419:511" ph="{...}" />
+                <marker date="1521814927000" expanded="true" signature="529:753" ph="{...}" />
+                <marker date="1521814927000" expanded="true" signature="584:747" ph="{...}" />
+                <marker date="1521814927000" expanded="true" signature="779:1282" ph="{...}" />
+                <marker date="1521814927000" expanded="true" signature="1330:1621" ph="{...}" />
+                <marker date="1521814927000" expanded="true" signature="1691:2000" ph="{...}" />
+                <marker date="1521814927000" expanded="true" signature="2039:2643" ph="{...}" />
+                <marker date="1521814927000" expanded="true" signature="2410:2568" ph="{...}" />
+                <marker date="1521814927000" expanded="true" signature="2702:2864" ph="{...}" />
+                <marker date="1521814927000" expanded="true" signature="2784:2858" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -95,16 +89,19 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PopulationManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/BotsManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GenerateMaze.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DNA.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/BrainBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/BrainBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DNA.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PopulationManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GenerateMaze.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BotsManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BrainBehaviour.cs" />
       </list>
     </option>
   </component>
@@ -140,22 +137,22 @@
           <expand>
             <path>
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="Unity-Maze-Walker-AI (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Unity-Maze-Walker-AI (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
             <path>
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="Unity-Maze-Walker-AI (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Unity-Maze-Walker-AI (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
             <path>
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="Unity-Maze-Walker-AI (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Unity-Maze-Walker-AI (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
             <path>
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="Unity-Maze-Walker-AI (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Unity-Maze-Walker-AI (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="Scripts" type="977d5f41:SolutionExplorerNodeRider" />
@@ -199,12 +196,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1521809423093</updated>
-      <workItem from="1521809425335" duration="778000" />
+      <workItem from="1521809425335" duration="4839000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="778000" />
+    <option name="totallyTimeSpent" value="4839000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -253,24 +250,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/BrainBehaviour.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="13" column="30" lean-forward="false" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
-          <folding>
-            <marker date="1521809925000" expanded="true" signature="63:1706" ph="{...}" />
-            <marker date="1521809925000" expanded="true" signature="396:608" ph="{...}" />
-            <marker date="1521809925000" expanded="true" signature="446:602" ph="{...}" />
-            <marker date="1521809925000" expanded="true" signature="630:674" ph="{...}" />
-            <marker date="1521809925000" expanded="true" signature="708:869" ph="{...}" />
-            <marker date="1521809925000" expanded="true" signature="927:1704" ph="{...}" />
-            <marker date="1521809925000" expanded="true" signature="1114:1233" ph="{...}" />
-            <marker date="1521809925000" expanded="true" signature="1174:1223" ph="{...}" />
-            <marker date="1521809925000" expanded="true" signature="1457:1517" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/DNA.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="117">
@@ -290,23 +269,60 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/PopulationManager.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GenerateMaze.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="597">
-          <caret line="94" column="36" lean-forward="false" selection-start-line="94" selection-start-column="36" selection-end-line="94" selection-end-column="36" />
+        <state relative-caret-position="528">
+          <caret line="31" column="17" lean-forward="false" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
           <folding>
-            <marker date="1521810194000" expanded="true" signature="6:71" ph="..." />
-            <marker date="1521810194000" expanded="true" signature="119:2866" ph="{...}" />
-            <marker date="1521810194000" expanded="true" signature="392:484" ph="{...}" />
-            <marker date="1521810194000" expanded="true" signature="502:726" ph="{...}" />
-            <marker date="1521810194000" expanded="true" signature="557:720" ph="{...}" />
-            <marker date="1521810194000" expanded="true" signature="752:1255" ph="{...}" />
-            <marker date="1521810194000" expanded="true" signature="1303:1591" ph="{...}" />
-            <marker date="1521810194000" expanded="true" signature="1661:1970" ph="{...}" />
-            <marker date="1521810194000" expanded="true" signature="2009:2643" ph="{...}" />
-            <marker date="1521810194000" expanded="true" signature="2410:2568" ph="{...}" />
-            <marker date="1521810194000" expanded="true" signature="2702:2864" ph="{...}" />
-            <marker date="1521810194000" expanded="true" signature="2784:2858" ph="{...}" />
+            <marker date="1521814601000" expanded="true" signature="7:79" ph="..." />
+            <marker date="1521814601000" expanded="true" signature="123:1257" ph="{...}" />
+            <marker date="1521814601000" expanded="true" signature="269:1193" ph="{...}" />
+            <marker date="1521814601000" expanded="true" signature="303:1190" ph="{...}" />
+            <marker date="1521814601000" expanded="true" signature="341:1185" ph="{...}" />
+            <marker date="1521814601000" expanded="true" signature="437:614" ph="{...}" />
+            <marker date="1521814601000" expanded="true" signature="646:673" ph="{...}" />
+            <marker date="1521814601000" expanded="true" signature="747:923" ph="{...}" />
+            <marker date="1521814601000" expanded="true" signature="958:1134" ph="{...}" />
+            <marker date="1521814601000" expanded="true" signature="1248:1255" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/BotsManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="581">
+          <caret line="91" column="5" lean-forward="false" selection-start-line="91" selection-start-column="5" selection-end-line="91" selection-end-column="5" />
+          <folding>
+            <marker date="1521814927000" expanded="true" signature="6:71" ph="..." />
+            <marker date="1521814927000" expanded="true" signature="113:2866" ph="{...}" />
+            <marker date="1521814927000" expanded="true" signature="419:511" ph="{...}" />
+            <marker date="1521814927000" expanded="true" signature="529:753" ph="{...}" />
+            <marker date="1521814927000" expanded="true" signature="584:747" ph="{...}" />
+            <marker date="1521814927000" expanded="true" signature="779:1282" ph="{...}" />
+            <marker date="1521814927000" expanded="true" signature="1330:1621" ph="{...}" />
+            <marker date="1521814927000" expanded="true" signature="1691:2000" ph="{...}" />
+            <marker date="1521814927000" expanded="true" signature="2039:2643" ph="{...}" />
+            <marker date="1521814927000" expanded="true" signature="2410:2568" ph="{...}" />
+            <marker date="1521814927000" expanded="true" signature="2702:2864" ph="{...}" />
+            <marker date="1521814927000" expanded="true" signature="2784:2858" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/BrainBehaviour.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="651">
+          <caret line="57" column="5" lean-forward="true" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="5" />
+          <folding>
+            <marker date="1521815137000" expanded="true" signature="63:1390" ph="{...}" />
+            <marker date="1521815137000" expanded="true" signature="283:377" ph="{...}" />
+            <marker date="1521815137000" expanded="true" signature="333:371" ph="{...}" />
+            <marker date="1521815137000" expanded="true" signature="411:588" ph="{...}" />
+            <marker date="1521815137000" expanded="true" signature="646:952" ph="{...}" />
+            <marker date="1521815137000" expanded="true" signature="833:946" ph="{...}" />
+            <marker date="1521815137000" expanded="true" signature="889:936" ph="{...}" />
+            <marker date="1521815137000" expanded="true" signature="1257:1386" ph="{...}" />
+            <marker date="1521815137000" expanded="true" signature="1275:1380" ph="{...}" />
           </folding>
         </state>
       </provider>
