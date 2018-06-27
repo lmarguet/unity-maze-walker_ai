@@ -38,8 +38,8 @@
       <file leaf-file-name="BrainBehaviour.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/BrainBehaviour.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="651">
-              <caret line="57" column="5" lean-forward="true" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="5" />
+            <state relative-caret-position="681">
+              <caret line="59" column="9" lean-forward="true" selection-start-line="59" selection-start-column="9" selection-end-line="59" selection-end-column="9" />
               <folding>
                 <marker date="1521815137000" expanded="true" signature="63:1390" ph="{...}" />
                 <marker date="1521815137000" expanded="true" signature="283:377" ph="{...}" />
@@ -196,12 +196,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1521809423093</updated>
-      <workItem from="1521809425335" duration="4839000" />
+      <workItem from="1521809425335" duration="5017000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4839000" />
+    <option name="totallyTimeSpent" value="5017000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -311,8 +311,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/BrainBehaviour.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="651">
-          <caret line="57" column="5" lean-forward="true" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="5" />
+        <state relative-caret-position="681">
+          <caret line="59" column="9" lean-forward="true" selection-start-line="59" selection-start-column="9" selection-end-line="59" selection-end-column="9" />
           <folding>
             <marker date="1521815137000" expanded="true" signature="63:1390" ph="{...}" />
             <marker date="1521815137000" expanded="true" signature="283:377" ph="{...}" />
