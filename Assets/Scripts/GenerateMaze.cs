@@ -1,45 +1,40 @@
-﻿﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-public class GenerateMaze : MonoBehaviour {
+public class GenerateMaze : MonoBehaviour
+{
+    private const int Width = 40;
+    private const int Depth = 40;
+    private const int StartZoneSize = 10;
 
-	public GameObject blockPrefab;
-	public Transform Container;
-	int width = 40;
-	int depth = 40;
+    public GameObject BlockPrefab;
 
-	// Use this for initialization
-	void Awake () {
-		for(int w = 0; w < width; w++)
-		{
-			for(int d = 0; d < depth; d++){
-				
-				GameObject instance = null;
-				if( w == 0 || d == 0)	//outside walls bottom and left
-				{
-					instance = Instantiate(blockPrefab, new Vector3(w + this.transform.position.x, this.transform.position.y, d + this.transform.position.z), Quaternion.identity);
-				}	
-				else if( w < 10 && d < 10)
-				{
-					continue;
-				}		
-				else if(w == width-1 || d == depth-1) //outside walls top and right
-				{
-					instance = Instantiate(blockPrefab, new Vector3(w + this.transform.position.x, this.transform.position.y,d + this.transform.position.z), Quaternion.identity);
-				}
-				else if(Random.Range(0,5) < 1)
-				{
-					instance = Instantiate(blockPrefab, new Vector3(w + this.transform.position.x, this.transform.position.y,d + this.transform.position.z), Quaternion.identity);
-				}
+    public void Awake()
+    {
+        for (var i = 0; i < Width; i++)
+        {
+            for (var j = 0; j < Depth; j++)
+            {
+                var isPerimter = i == 0 || j == 0 || i == Width - 1 || j == Depth - 1;
+                var isInStartZone = i < StartZoneSize && j < StartZoneSize;
 
-//				instance.transform.parent = Container;
-			}	
-		}
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+                if (!isPerimter && isInStartZone)
+                {
+                    continue;
+                }
+
+                var createBlockInside = Random.Range(0, 5) < 1;
+
+                if (isPerimter || createBlockInside)
+                {
+                    CreateBlock(i, j);
+                }
+            }
+        }
+    }
+
+    private void CreateBlock(int w, int d)
+    {
+        var position = new Vector3(w + transform.position.x, transform.position.y, d + transform.position.z);
+        Instantiate(BlockPrefab, position, Quaternion.identity);
+    }
 }

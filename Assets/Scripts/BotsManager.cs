@@ -4,9 +4,8 @@ using UnityEngine;
 
 public class BotsManager : MonoBehaviour
 {
-    
     public static float ElapsedTime;
-    
+
     public GameObject botPrefab;
     public Transform StartPoint;
     public int PopulationSize = 50;
@@ -24,7 +23,8 @@ public class BotsManager : MonoBehaviour
 
     void Start()
     {
-        for (var i = 0; i < PopulationSize; i++){
+        for (var i = 0; i < PopulationSize; i++)
+        {
             var instanceGO = InstantiateNewBot();
             instanceGO.GetComponent<BrainBehaviour>().Init();
             population.Add(instanceGO);
@@ -43,7 +43,7 @@ public class BotsManager : MonoBehaviour
         GUI.Label(new Rect(10, 75, 200, 30), "Population: " + population.Count, guiStyle);
         GUI.EndGroup();
     }
-    
+
     private GameObject InstantiateNewBot()
     {
         var startingPos = new Vector3(
@@ -51,16 +51,16 @@ public class BotsManager : MonoBehaviour
             StartPoint.position.y,
             StartPoint.position.z + Random.Range(-2, 2)
         );
-        
+
         return Instantiate(botPrefab, startingPos, transform.rotation);
     }
 
     private GameObject Breed(GameObject parent1, GameObject parent2)
     {
         var brain = InstantiateNewBot()
-            .GetComponent<BrainBehaviour>()
-            .Init();
-        
+                   .GetComponent<BrainBehaviour>()
+                   .Init();
+
         brain.Dna.Combine(
             parent1.GetComponent<BrainBehaviour>().Dna,
             parent2.GetComponent<BrainBehaviour>().Dna
@@ -75,11 +75,11 @@ public class BotsManager : MonoBehaviour
         var sortedList = population
                         .OrderBy(x => x.GetComponent<BrainBehaviour>().DistanceTravelled)
                         .ToList();
-        
+
         population.Clear();
 
         var startIndex = Mathf.RoundToInt(sortedList.Count / 2 - 1);
-        
+
         for (var i = startIndex; i < sortedList.Count - 1; i++)
         {
             population.Add(Breed(sortedList[i], sortedList[i + 1]));
@@ -87,7 +87,7 @@ public class BotsManager : MonoBehaviour
         }
 
         sortedList.ForEach(Destroy);
-        
+
         generation++;
     }
 
@@ -96,10 +96,10 @@ public class BotsManager : MonoBehaviour
     void Update()
     {
         ElapsedTime += Time.deltaTime;
-        if (ElapsedTime > TrialTime){
+        if (ElapsedTime > TrialTime)
+        {
             BreedNewPopulation();
             ElapsedTime = 0;
         }
     }
 }
-
